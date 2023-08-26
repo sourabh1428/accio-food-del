@@ -46,7 +46,7 @@
 .hero1-left{
    
     flex-direction: column;
-    align-items: flex-start;
+   
     justify-content: center;
 
 }
@@ -347,14 +347,16 @@ line-height: 20px; /* 100% */
         flex-direction: column !important;
         justify-content: center !important;
         align-items: center !important;
-
+        width: 100% !important;
+     
     }
     .hero1-left{
-       
-        flex-direction: column !important;
-        justify-content: center !important; 
+        width: 100% !important;
         align-items: center !important;
+        justify-content: center !important;
+       
     }
+    
     .hero1-right{
         
         display: none !important;
