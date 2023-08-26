@@ -27,7 +27,7 @@
     font-weight: 700;
     line-height: 28px; 
     letter-spacing: -0.3px;
-    
+    flex-direction: row;
 
 }
 
@@ -328,32 +328,32 @@ line-height: 20px; /* 100% */
     background-color: white !important;
 }
 @media screen and (max-width:1072px) {
-    .custom-nav-search,.cutom-nav-fdelivery{
+    .custom-nav-search{
         display: none !important;
     }   
 }
 
 @media screen and (max-width: 768px) {
-    .custom-nav-search,.cutom-nav-fdelivery{
+    .custom-nav-search{
         display: none !important;
     }   
     .custom-nav-main{
-        flex-direction: column;
+        flex-direction: column !important;
     } 
     .custom-nav-ul{
-        flex-direction: column;
+        flex-direction: column ;
     }
     .hero1{
-        flex-direction: column;
-        width: 300px;
-        align-items: center;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
 
     }
     .hero1-left{
        
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        flex-direction: column !important;
+        justify-content: center !important; 
+        align-items: center !important;
     }
     .hero1-right{
         
