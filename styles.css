@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=DM+Sans:opsz@9..40&family=Gothic+A1&family=Inter&family=Montserrat&family=Plus+Jakarta+Sans&family=Poppins&family=Preahvihear&family=Roboto&family=Rubik&display=swap');
 
 
+.custom-nav-ul li ,.hue-fast-food li{
+    color: inherit;
+    text-decoration: underline 0.2em rgba(255, 255, 255, 0);
+    transition: text-decoration-color 600ms;
 
-
-.custom-nav-ul li:hover{
+  }
+  
+.custom-nav-ul li:hover,.hue-fast-food li:hover {
+    text-decoration-color: #F94A3D;
     cursor: pointer;
-    transform:scaleX(2);
-    transform: scaleY(1.5);
-    transition: 0.3s ease transform;
-
-}
+  }
 
 .cutom-nav-ul>li{
     color: var(--food-delivery-pg, #212244);
@@ -19,6 +21,8 @@
     font-weight: 400;
     line-height: normal;
 }
+
+
 .cutom-nav-fdelivery >h2{
      color: #F94A3D;
     font-family: Poppins;
@@ -190,6 +194,7 @@ line-height: 40px; /* 133.333% */
     padding: 9px;
     box-sizing: border-box;
     cursor: pointer;
+
 }
 .hero22:hover{
     border-top: none;
